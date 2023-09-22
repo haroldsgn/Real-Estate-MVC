@@ -1,0 +1,22 @@
+{
+    "name": "personal/bienesraices",
+    "description": "Creando proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Samuel Rondon",
+            "email": "samuelrm@outlook.es"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
